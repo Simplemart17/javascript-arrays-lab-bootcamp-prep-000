@@ -31,7 +31,7 @@ function prependKitten(element) {
 
 function removeLastKitten() {
   const newArray = kittens.shift(kittens.length - 1);
-  return newArray
+  return newArray;
 }
 
 function removeFirstKitten() {
