@@ -30,6 +30,6 @@ function prependKitten(element) {
 }
 
 function removeLastKitten() {
-  const newArray = [element, ...kittens];
+  const newArray = kittens.shift();
   return newArray;
 }
