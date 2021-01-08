@@ -29,7 +29,7 @@ function prependKitten(element) {
   return newArray;
 }
 
-function prependKitten(element) {
+function removeLastKitten() {
   const newArray = [element, ...kittens];
   return newArray;
 }
