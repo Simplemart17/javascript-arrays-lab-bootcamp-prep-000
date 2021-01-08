@@ -28,3 +28,8 @@ function prependKitten(element) {
   const newArray = [element, ...kittens];
   return newArray;
 }
+
+function prependKitten(element) {
+  const newArray = [element, ...kittens];
+  return newArray;
+}
